@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/:name",
+      "destination": "/api/[name]"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/InkoHX/gh-pinned-repo"
+    }
+  ]
+}

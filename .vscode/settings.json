@@ -1,3 +1,11 @@
 {
-  "deepscan.enable": true
+  "deepscan.enable": true,
+  "json.schemas": [
+  {
+    "fileMatch": [
+      "/vercel.json"
+    ],
+    "url": "https://vcs.now.sh/"
+  }
+  ]
 }
