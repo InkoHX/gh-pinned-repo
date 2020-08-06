@@ -49,5 +49,7 @@ export default async function (request: NowRequest, response: NowResponse) {
       })
     })
 
+  response.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
+
   return response.send(result)
 }
